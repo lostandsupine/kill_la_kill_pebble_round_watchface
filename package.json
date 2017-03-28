@@ -1,0 +1,35 @@
+{
+  "name": "kill la kill",
+  "author": "aarn",
+  "version": "1.0.0",
+  "keywords": ["pebble-watchface"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "kill la kill",
+    "uuid": "d82b30a6-f968-41f0-b3f9-33c2a6392662",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+	{
+	"type": "bitmap",
+	"name": "kill_la_kill",
+	"file": "kill_la_kill_1.png"
+	}
+      ]
+    }
+  }
+}
